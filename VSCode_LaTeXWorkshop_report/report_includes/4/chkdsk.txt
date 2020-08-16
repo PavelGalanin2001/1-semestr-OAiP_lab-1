@@ -1,0 +1,106 @@
+C:\Windows\system32>chkdsk r:
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+  256 file records processed.
+File verification completed.
+ Phase duration (File record verification): 7.68 milliseconds.
+  0 large file records processed.
+ Phase duration (Orphan file record recovery): 1.42 milliseconds.
+  0 bad file records processed.
+ Phase duration (Bad file record checking): 1.45 milliseconds.
+
+Stage 2: Examining file name linkage ...
+  4 reparse records processed.
+  288 index entries processed.
+Index verification completed.
+ Phase duration (Index verification): 23.56 milliseconds.
+  0 unindexed files scanned.
+ Phase duration (Orphan reconnection): 1.84 milliseconds.
+  0 unindexed files recovered to lost and found.
+ Phase duration (Orphan recovery to lost and found): 1.32 milliseconds.
+  4 reparse records processed.
+ Phase duration (Reparse point and Object ID verification): 3.78 milliseconds.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+ Phase duration (Security descriptor verification): 17.49 milliseconds.
+  16 data files processed.
+ Phase duration (Data attribute verification): 6.84 milliseconds.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+  10484735 KB total disk space.
+     16180 KB in 40 files.
+        84 KB in 18 indexes.
+         0 KB in bad sectors.
+     17695 KB in use by the system.
+     16704 KB occupied by the log file.
+  10450776 KB available on disk.
+
+      4096 bytes in each allocation unit.
+   2621183 total allocation units on disk.
+   2612694 allocation units available on disk.
+Total duration: 70.06 milliseconds (70 ms).
+
+C:\Windows\system32>chkdsk r: /f /v /r
+The type of the file system is NTFS.
+
+Stage 1: Examining basic file system structure ...
+  256 file records processed.
+File verification completed.
+ Phase duration (File record verification): 11.95 milliseconds.
+  0 large file records processed.
+ Phase duration (Orphan file record recovery): 2.12 milliseconds.
+  0 bad file records processed.
+ Phase duration (Bad file record checking): 9.97 milliseconds.
+
+Stage 2: Examining file name linkage ...
+  4 reparse records processed.
+  290 index entries processed.
+Index verification completed.
+ Phase duration (Index verification): 20.25 milliseconds.
+  0 unindexed files scanned.
+ Phase duration (Orphan reconnection): 6.12 milliseconds.
+  0 unindexed files recovered to lost and found.
+ Phase duration (Orphan recovery to lost and found): 4.00 milliseconds.
+  4 reparse records processed.
+ Phase duration (Reparse point and Object ID verification): 5.63 milliseconds.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+ Phase duration (Security descriptor verification): 32.17 milliseconds.
+  17 data files processed.
+ Phase duration (Data attribute verification): 2.01 milliseconds.
+
+Stage 4: Looking for bad clusters in user file data ...
+  240 files processed.
+File data verification completed.
+ Phase duration (User file recovery): 145.82 milliseconds.
+
+Stage 5: Looking for bad, free clusters ...
+  2612693 free clusters processed.
+Free space verification is complete.
+ Phase duration (Free space recovery): 0.00 milliseconds.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+  10484735 KB total disk space.
+     16188 KB in 41 files.
+        84 KB in 19 indexes.
+         0 KB in bad sectors.
+     17691 KB in use by the system.
+     16704 KB occupied by the log file.
+  10450772 KB available on disk.
+
+      4096 bytes in each allocation unit.
+   2621183 total allocation units on disk.
+   2612693 allocation units available on disk.
+Total duration: 243.68 milliseconds (243 ms).
+
+C:\Windows\system32>
