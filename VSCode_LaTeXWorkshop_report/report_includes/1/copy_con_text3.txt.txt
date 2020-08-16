@@ -1,0 +1,12 @@
+R:\>copy con test3.txt
+text in test3.txt
+paragraph
+paragraph^Z
+        1 file(s) copied.
+
+R:\>
+R:\>type test3.txt
+text in test3.txt
+paragraph
+paragraph
+R:\>

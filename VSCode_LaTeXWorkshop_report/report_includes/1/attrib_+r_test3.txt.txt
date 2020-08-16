@@ -1,0 +1,6 @@
+R:\>attrib +r test3.txt
+
+R:\>attrib test3.txt
+A    R               R:\test3.txt
+
+R:\>

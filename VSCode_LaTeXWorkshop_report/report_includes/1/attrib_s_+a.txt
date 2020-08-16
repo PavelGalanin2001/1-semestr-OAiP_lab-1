@@ -1,0 +1,37 @@
+R:\>attrib /s
+A  SH                R:\$RECYCLE.BIN\S-1-5-21-1675366939-1597328017-816491836-1003\desktop.ini
+A                    R:\LAB\file1
+A                    R:\LAB\file2
+A                    R:\LAB\file3
+A                    R:\LAB\file4.txt
+A                    R:\LAB\file5.txt
+A                    R:\LAB\file6.txt
+A    R               R:\test3.txt
+
+R:\>attrib /s -a
+Not resetting hidden file - R:\$RECYCLE.BIN\S-1-5-21-1675366939-1597328017-816491836-1003\desktop.ini
+
+R:\>attrib /s
+A  SH                R:\$RECYCLE.BIN\S-1-5-21-1675366939-1597328017-816491836-1003\desktop.ini
+                     R:\LAB\file1
+                     R:\LAB\file2
+                     R:\LAB\file3
+                     R:\LAB\file4.txt
+                     R:\LAB\file5.txt
+                     R:\LAB\file6.txt
+     R               R:\test3.txt
+
+R:\>attrib /s +a
+Not resetting hidden file - R:\$RECYCLE.BIN\S-1-5-21-1675366939-1597328017-816491836-1003\desktop.ini
+
+R:\>attrib /s
+A  SH                R:\$RECYCLE.BIN\S-1-5-21-1675366939-1597328017-816491836-1003\desktop.ini
+A                    R:\LAB\file1
+A                    R:\LAB\file2
+A                    R:\LAB\file3
+A                    R:\LAB\file4.txt
+A                    R:\LAB\file5.txt
+A                    R:\LAB\file6.txt
+A    R               R:\test3.txt
+
+R:\>

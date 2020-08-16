@@ -1,0 +1,14 @@
+R:\>mkdir LAB
+
+R:\>dir
+ Volume in drive R has no label.
+ Volume Serial Number is 6ADD-6EBE
+
+ Directory of R:\
+
+08/16/2020  04:31 PM    <DIR>          LAB
+08/16/2020  04:19 PM                52 test3.txt
+               1 File(s)             52 bytes
+               1 Dir(s)  10,697,404,416 bytes free
+
+R:\>

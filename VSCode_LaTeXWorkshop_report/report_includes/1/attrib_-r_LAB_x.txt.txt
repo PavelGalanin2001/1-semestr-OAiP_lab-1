@@ -1,0 +1,29 @@
+R:\>attrib LAB\*
+A                    R:\LAB\file1
+A                    R:\LAB\file2
+A                    R:\LAB\file3
+A                    R:\LAB\file4.txt
+A                    R:\LAB\file5.txt
+A                    R:\LAB\file6.txt
+
+R:\>attrib +r LAB\*
+
+R:\>attrib LAB\*
+A    R               R:\LAB\file1
+A    R               R:\LAB\file2
+A    R               R:\LAB\file3
+A    R               R:\LAB\file4.txt
+A    R               R:\LAB\file5.txt
+A    R               R:\LAB\file6.txt
+
+R:\>attrib -r LAB\*.txt
+
+R:\>attrib LAB\*
+A    R               R:\LAB\file1
+A    R               R:\LAB\file2
+A    R               R:\LAB\file3
+A                    R:\LAB\file4.txt
+A                    R:\LAB\file5.txt
+A                    R:\LAB\file6.txt
+
+R:\>

@@ -1,0 +1,38 @@
+R:\>copy con LAB\file1
+text in file1^Z
+        1 file(s) copied.
+
+R:\>copy con LAB\file2
+text in file2^Z
+        1 file(s) copied.
+
+R:\>copy con LAB\file3
+text in file3^Z
+        1 file(s) copied.
+
+R:\>copy con LAB\file4.txt
+text in file4.txt^Z
+        1 file(s) copied.
+
+R:\>copy con LAB\file5.txt
+text in file5.txt^Z
+        1 file(s) copied.
+
+R:\>copy con LAB\file6.txt
+text in file6.txt^Z
+        1 file(s) copied.
+
+R:\>
+R:\>type LAB\file1
+text in file1
+R:\>type LAB\file2
+text in file2
+R:\>type LAB\file3
+text in file3
+R:\>type LAB\file4.txt
+text in file4.txt
+R:\>type LAB\file5.txt
+text in file5.txt
+R:\>type LAB\file6.txt
+text in file6.txt
+R:\>
