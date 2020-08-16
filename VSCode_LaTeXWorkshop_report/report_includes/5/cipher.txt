@@ -1,0 +1,36 @@
+R:\>cipher SUB1\
+
+ Listing R:\SUB1\
+ New files added to this directory will not be encrypted.
+
+
+R:\>mkdir SUB3
+
+R:\>copy con SUB3\lab.txt
+text in file... la-la^Z
+        1 file(s) copied.
+
+R:\>cipher /e /a SUB3\lab.txt
+
+ Encrypting files in R:\SUB3\
+
+lab.txt             [ERR]
+lab.txt: The request is not supported.
+
+0 file(s) [or directorie(s)] within 1 directorie(s) were encrypted.
+
+
+R:\>cipher /e /s:SUB3
+
+ Setting the directory SUB3 to encrypt new files [ERR]
+SUB3: The request is not supported.
+
+ Encrypting files in R:\SUB3\
+
+lab.txt             [ERR]
+lab.txt: The request is not supported.
+
+0 file(s) [or directorie(s)] within 1 directorie(s) were encrypted.
+
+
+R:\>
