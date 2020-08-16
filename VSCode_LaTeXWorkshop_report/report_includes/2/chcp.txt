@@ -1,0 +1,22 @@
+R:\>chcp
+Active code page: 437
+
+R:\>chcp 852
+Active code page: 852
+
+R:\>chcp
+Active code page: 852
+
+R:\>chcp 863
+Active code page: 863
+
+R:\>chcp
+Active code page: 863
+
+R:\>chcp 437
+Active code page: 437
+
+R:\>chcp
+Active code page: 437
+
+R:\>
