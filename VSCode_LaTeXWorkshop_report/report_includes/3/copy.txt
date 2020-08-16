@@ -1,0 +1,64 @@
+R:\SUB1>tree /A /F r:\
+Folder PATH listing
+Volume serial number is 6ADD-6EBE
+R:\
+|   test3.txt
+|
++---LAB
+|       file1
+|       file2
+|       file3
+|       file4.txt
+|       file5.txt
+|       file6.txt
+|
+\---SUB1
+    |   file1
+    |   file2
+    |   file3
+    |   file4.txt
+    |   file5.txt
+    |   file6.txt
+    |
+    \---SUB2
+
+R:\SUB1>copy * ..
+file1
+file2
+file3
+file4.txt
+file5.txt
+file6.txt
+        6 file(s) copied.
+
+R:\SUB1>tree /A /F r:\
+Folder PATH listing
+Volume serial number is 6ADD-6EBE
+R:\
+|   file1
+|   file2
+|   file3
+|   file4.txt
+|   file5.txt
+|   file6.txt
+|   test3.txt
+|
++---LAB
+|       file1
+|       file2
+|       file3
+|       file4.txt
+|       file5.txt
+|       file6.txt
+|
+\---SUB1
+    |   file1
+    |   file2
+    |   file3
+    |   file4.txt
+    |   file5.txt
+    |   file6.txt
+    |
+    \---SUB2
+
+R:\SUB1>

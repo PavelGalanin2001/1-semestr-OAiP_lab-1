@@ -1,0 +1,7 @@
+R:\>mkdir SUB1\SUB2
+
+R:\>cd SUB1
+
+R:\SUB1>cd SUB2
+
+R:\SUB1\SUB2>cd ..

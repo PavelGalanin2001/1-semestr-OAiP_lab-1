@@ -1,0 +1,23 @@
+R:\SUB1>copy con file1
+aaa^Z
+        1 file(s) copied.
+
+R:\SUB1>copy con file2
+bbb^Z
+        1 file(s) copied.
+
+R:\SUB1>copy con file3
+ccc^Z
+        1 file(s) copied.
+
+R:\SUB1>copy con file4.txt
+ddd^Z
+        1 file(s) copied.
+
+R:\SUB1>copy con file5.txt
+eee^Z
+        1 file(s) copied.
+
+R:\SUB1>copy con file6.txt
+fff^Z
+        1 file(s) copied.
